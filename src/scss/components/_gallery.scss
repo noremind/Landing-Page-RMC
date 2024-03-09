@@ -1,0 +1,12 @@
+@use "../abstracts/" as abs;
+
+.gallery__wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, clamp(9.875rem, -0.542rem + 13.89vw, 16.125rem));
+    margin-top: 140px;
+
+	@include abs.breakpoints("desktop-sm"){
+		grid-template-columns: (repeat(4 , 1fr));
+		gap: 15px;
+	}
+}

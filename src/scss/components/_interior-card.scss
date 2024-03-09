@@ -1,0 +1,28 @@
+@use "../abstracts" as abs;
+
+.interior-card {
+  position: relative;
+  &__box {
+    position: absolute;
+    bottom: 0;
+    color: abs.$title-color;
+    padding: clamp(0.625rem, 0.057rem + 2.84vw, 1.875rem);
+  }
+
+  &__title {
+    // font-size: 24px;
+    font-size: clamp(14px, 0.648rem + 1.14vw, 24px);
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-family: abs.$font-accent;
+		font-size: clamp(0.625rem, 0.455rem + 0.85vw, 1rem);
+  }
+
+	&__img{
+		margin: 0 auto;
+		background-color: linear-gradient(#38656B 0% , #063339 100%);
+	}
+}
+
