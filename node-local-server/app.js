@@ -25,7 +25,7 @@ async function createServer() {
 	app.use(vite.middlewares)
 
 	// JavaScript
-	// app.use('/js', express.static(scriptPath('js')))
+	app.use('/js', express.static(scriptPath('js')))
 
 	//Fonts static
 	app.use('/fonts', express.static(allStaticPath('fonts')))
