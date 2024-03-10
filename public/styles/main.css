@@ -407,7 +407,7 @@ body {
 }
 
 .specializations-mobile {
-  margin-top: 190px;
+  margin-top: clamp(4.375rem, 0.966rem + 17.05vw, 11.875rem);
 }
 .specializations-mobile--none {
   display: none;
