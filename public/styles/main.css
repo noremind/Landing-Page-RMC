@@ -163,7 +163,6 @@ body {
 
 .header {
   z-index: 1;
-  height: 100vh;
   position: relative;
 }
 .header a {
@@ -355,7 +354,6 @@ body {
 
 .specializations {
   position: relative;
-  margin-top: 300px;
 }
 .specializations__wrapper {
   margin-top: 140px;
